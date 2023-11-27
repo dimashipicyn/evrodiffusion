@@ -37,6 +37,7 @@ namespace evrodiffusion
             }
             UpdateStats();
         }
+
         void AddCountries(List<CountryInfo> items)
         {
             foreach (CountryInfo countryInfo in items)

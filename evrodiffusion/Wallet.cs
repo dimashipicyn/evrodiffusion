@@ -11,6 +11,7 @@ namespace evrodiffusion
         {
             balance = new Dictionary<string, int>();
         }
+
         public void AddMoney(string countryMotif, int count)
         {
             if (balance.ContainsKey(countryMotif))

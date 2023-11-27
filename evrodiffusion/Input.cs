@@ -29,6 +29,7 @@ namespace evrodiffusion
         {
             countries = new List<List<CountryInfo>>();
         }
+
         public void Load(string path)
         {
             using (StreamReader r = new StreamReader(path))
@@ -43,6 +44,7 @@ namespace evrodiffusion
                 }
             }
         }
+
         void ParseCountries(StreamReader r, int countryCount)
         {
             List<CountryInfo> items = new List<CountryInfo>();
